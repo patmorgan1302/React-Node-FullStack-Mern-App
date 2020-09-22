@@ -26,10 +26,10 @@ export default class StudentTableRow extends Component {
                 <td>{this.props.obj.email}</td>
                 <td>{this.props.obj.rollno}</td>
                 <td>
-                    <Link className="edit-link" to={"/edit-student/" + this.props.obj._id}>
-                        Edit
-                    </Link>
-                    <Button onClick={this.deleteStudent} size="sm" variant="danger">Delete</Button>
+                    <Button variant="warning">
+                        <Link className="edit-link" to={"/edit-student/" + this.props.obj._id}>Edit</Link>
+                    </Button>
+                    <Button onClick={this.deleteStudent} style={{marginLeft: '6px'}} size="sm" variant="danger">Delete</Button>
                 </td>
             </tr>
         );

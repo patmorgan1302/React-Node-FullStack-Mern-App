@@ -51,22 +51,22 @@ export default class CreateStudent extends Component {
     return (<div className="form-wrapper">
       <Form onSubmit={this.onSubmit}>
         <Form.Group controlId="Name">
-          <Form.Label>Name</Form.Label>
+          <Form.Label>To Do</Form.Label>
           <Form.Control type="text" value={this.state.name} onChange={this.onChangeStudentName} />
         </Form.Group>
 
         <Form.Group controlId="Email">
-          <Form.Label>Email</Form.Label>
-          <Form.Control type="email" value={this.state.email} onChange={this.onChangeStudentEmail} />
+          <Form.Label>To Do Description</Form.Label>
+          <Form.Control type="text" value={this.state.email} onChange={this.onChangeStudentEmail} />
         </Form.Group>
 
         <Form.Group controlId="Name">
-          <Form.Label>Roll No</Form.Label>
+          <Form.Label>Number</Form.Label>
           <Form.Control type="text" value={this.state.rollno} onChange={this.onChangeStudentRollno} />
         </Form.Group>
 
-        <Button variant="danger" size="lg" block="block" type="submit">
-          Create Student
+        <Button style={{marginBottom: '6px'}} variant="success" size="lg" block="block" type="submit">
+          Add To Do
         </Button>
       </Form>
     </div>);
