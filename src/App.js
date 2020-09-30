@@ -13,7 +13,7 @@ const App = () => {
         <div>
           <section className="cover text-center">
             <div className="cover-container pb-5">
-            <Button href="https://github.com/patmorgan1302/MockSocialMedia-React-Redux" style={{marginLeft: "21px"}} className="github-button" variant="outline-light">Github</Button>{' '}
+            <Button href="https://github.com/" style={{marginLeft: "21px"}} className="github-button" variant="outline-light">Github</Button>{' '}
             <Button className="github-button" variant="outline-light">Blog</Button>{' '}
                 <div className="cover-inner container" style={{marginTop: "155px"}}>
                     <h1 className="header-one"><strong>Patrick Morgan</strong></h1>
