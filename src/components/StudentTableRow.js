@@ -23,8 +23,6 @@ export default class StudentTableRow extends Component {
         return (
             <tr>
                 <td>{this.props.obj.name}</td>
-                <td>{this.props.obj.email}</td>
-                <td>{this.props.obj.rollno}</td>
                 <td>
                     <Button variant="warning">
                         <Link className="edit-link" to={"/edit-student/" + this.props.obj._id}>Edit</Link>
